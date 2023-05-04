@@ -5,8 +5,8 @@ import boto3
 from botocore.exceptions import NoCredentialsError
 
 app = Flask(__name__)
-s3 = boto3.client('s3', aws_access_key_id='AKIAYGU4YK33OKDIIKPI',
-                  aws_secret_access_key='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')
+s3 = boto3.client('s3', aws_access_key_id='AKIAYGU4YK33MAQYXBQE',
+                  aws_secret_access_key='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')
 
 
 @app.route('/')
